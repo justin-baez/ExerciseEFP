@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BlaisePascal.ExerciseEFP.Console": {
+      "commandName": "Project"
+    },
+    "Profilo 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\justin.baez\\source\\repos\\ExerciseEFP\\src\\BlaisePascal.ExerciseEFP.Console\\BlaisePascal.ExerciseEFP.Console.csproj"
+    }
+  }
+}

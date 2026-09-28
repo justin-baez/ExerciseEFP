@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/doc/" />
   <Folder Name="/src/">
-    <Project Path="src/BlaisePascal.ExerciseEFP.Console/BlaisePascal.ExerciseEFP.Console.csproj" />
+    <Project Path="src/BlaisePascal.ExerciseEFP.Console1/BlaisePascal.ExerciseEFP.Console1.csproj" Id="baf1eee3-5ec3-4925-a4ca-cb7b3513bc1c" />
     <Project Path="src/BlaisePascal.ExerciseEFP.Domain/BlaisePascal.ExerciseEFP.Domain.csproj" />
   </Folder>
   <Folder Name="/test/">
