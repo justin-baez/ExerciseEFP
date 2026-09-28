@@ -19,9 +19,11 @@
         if (shippingType == "Shipping" || shippingType == "shipping")
         {
             int totalPrice = numeberOfBooks * priceSingleBook + 5;
-            Console.WriteLine($"Dear {fullName}, your order has been succesfull, the total price is {totalPrice}$.");
+            Console.WriteLine($"Dear {fullName}, your order has been succesfully placed, the total price is {totalPrice}$.");
             int daysRetrieve = Random.Shared.Next(1, 8);
             Console.WriteLine($"What's the adress you want to ship this order to?");
+            string adress = Console.ReadLine();
+            Console.WriteLine($"Your order will be shipped to you in {daysRetrieve} at {adress}.");
             Console.WriteLine("Thank you for your order!");
         }
         else if (shippingType == "Retrieve" || shippingType == "retrieve")
