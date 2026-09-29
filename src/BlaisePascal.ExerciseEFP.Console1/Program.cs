@@ -27,10 +27,10 @@
             int totalPrice = numberOfBooks * priceSingleBook;
             if (student == "yes")
             {
-                Console.WriteLine($"The total before your student discount of 10% and shipping is {totalPrice}$."); // Display the total price before discounts and shipping
+                Console.WriteLine($"The subtotal is {totalPrice}$."); // Display the total price before discounts and shipping
                 totalPrice = totalPrice - (totalPrice * discount / 100);
             }
-            Console.WriteLine($"Dear {fullName}, your order has been succesfully placed, the total price is {totalPrice}$, and with with the shipping fee it will be {totalPrice + 5}$.");
+            Console.WriteLine($"Dear {fullName}, your order has been succesfully placed.\nThe total price is {totalPrice}$.\nWith the shipping fee it will be {totalPrice + 5}$.");
             // Display the total price after discounts and shipping
 
             int daysRetrieve = Random.Shared.Next(1, 8);
@@ -47,10 +47,10 @@
             int totalPrice = numberOfBooks * priceSingleBook;
             if (student == "yes")
             {
-                Console.WriteLine($"The total before your student discount of 10% is {totalPrice}$."); // Display the total price before discounts
+                Console.WriteLine($"The subtotalis {totalPrice}$."); // Display the total price before discounts
                 totalPrice = totalPrice - (totalPrice * discount / 100);
             }
-            Console.WriteLine($"Dear {fullName}, your order has been succesfull, the total price is {totalPrice}$."); // Display the total price after discounts
+            Console.WriteLine($"Dear {fullName}, your order has been succesfully placed.\nThe total price is {totalPrice}$."); // Display the total price after discounts
 
             int daysRetrieve = Random.Shared.Next(1, 8);
             Console.WriteLine($"Your order will be ready for retrieval in {daysRetrieve} working days");// Display the estimated time for retrieval
